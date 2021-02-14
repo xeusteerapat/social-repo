@@ -7,7 +7,7 @@ pool
     host: 'localhost',
     port: 5432,
     database: 'socialnetwork',
-    users: process.env.PG_USER,
+    user: process.env.PG_USER,
     password: process.env.PG_PASSWORD,
   })
   .then(() => {
